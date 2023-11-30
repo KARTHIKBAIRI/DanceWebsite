@@ -1,0 +1,60 @@
+doctype html
+html
+  head
+    title Karthik dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul
+            div#logo 
+                img(src="/static/img/dancelogo1.jpg")
+                | KDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About] 
+            li #[a(href="/") class_info ] 
+            li #[a(href="/") services  ] 
+            li #[a(href="/") Contact us  ] 
+            
+    section#introsection 
+        div Welcome to Karthik's dance academy
+        div.small Dance Until Dance
+    section#aimsection  
+        h2 Our Mission
+        div.card 
+            h4 Dance expert
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/dance6.jpg")
+                div.card-content 
+                    p This is one of the best dance academy in the world
+
+        div.card 
+            h4 Dance Techniques 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/dance2.jpg")
+                div.card-content 
+                    p This is one of the best dance academy in the world
+        div.card 
+            h4 Dance teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/dance8.jpg",class="icon")
+                div.card-content 
+                    p This is one of the best dance academy in the world
+    section#sponsorsection  
+        h2 Our Sponsors 
+        div#spon
+            div#sponsors 
+                img(src="/static/img/dcom1.jpg",alt="this is company1", class="spimg") 
+            div#sponsors 
+                img(src="/static/img/dcom2.jpg",alt="this is company2", class="spimg") 
+            div#sponsors 
+                img(src="/static/img/dcom3.jpg",alt="this is company3", class="spimg") 
+            div#sponsors 
+                img(src="/static/img/dcomp3.jpg",alt="this is company4", class="spimg") 
+    //- footer#footer 
+    //-     | copyright @ 2023 karthikacademy.com | All right are reserved.
+script
+    include ../static/index.js

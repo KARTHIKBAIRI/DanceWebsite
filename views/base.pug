@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Karthik dance academy
+    block scripts
+    block style
+      script(src='/jquery.js')
+  body
+    nav#navbar.top 
+        ul
+            div#logo 
+                img(src="/static/img/dancelogo1.jpg")
+                | KDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About] 
+            li #[a(href="/") class_info ] 
+            li #[a(href="/") services  ] 
+            li #[a(href="/contact") Contact us  ] 
+    block content
+    footer#footer 
+        | copyright @ 2023 karthikacademy.com | All right are reserved.
